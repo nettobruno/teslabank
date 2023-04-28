@@ -8,10 +8,6 @@ Caso queira rodar o projeto em sua máquina, basta clonar este repositório, e a
 
 </br>
 
----
-
-</br>
-
 ## Autores
 
 <a href="https://www.linkedin.com/in/bruno-netto-77434b187/">
