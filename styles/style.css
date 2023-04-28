@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 400px;
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 50%,
+    #cb162e 50%,
+    #eb3850 100%
+  );
+}
+
+header nav {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul,
+header nav > div,
+header nav a {
+  display: flex;
+  align-items: center;
+}
+
+header nav > div > img {
+  margin-right: 3.125rem;
+  width: 1.5rem;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #333;
+  font-family: "Inter";
+  font-size: 1.125rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header nav ul li:not(:last-child) {
+  margin-right: 3.75rem;
+}
+
+header nav a {
+  padding: 5px 10px;
+
+  font-family: "Inter";
+  font-size: 1.125rem;
+  color: #fff;
+  text-decoration: none;
+
+  gap: 10px;
+}
+
+div.header-grid {
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+div.header-grid div.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div.header-grid div.header-content h1,
+div.header-grid div.header-content h2 {
+  color: #e51d37;
+  font-family: "Sora";
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+div.header-grid div.header-content > p {
+  color: #333;
+  font-family: "Inter";
+  font-size: 1.625rem;
+
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+div.header-grid div.header-content > div,
+div.header-grid div.header-content > div button {
+  display: flex;
+  align-items: center;
+}
+
+div.header-grid div.header-content > div button {
+  background: linear-gradient(220.94deg, #eb3850 14.43%, #cb162e 85.28%);
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin-right: 50px;
+
+  gap: 10px;
+
+  transition: 0.3s;
+}
+
+div.header-grid div.header-content > div button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+div.header-grid div.header-content > div button p {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+div.header-grid div.header-content > div .store-icons {
+  display: flex;
+  gap: 30px;
+}
+
+div.header-grid div.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.header-grid div.header-image img {
+  width: 100%;
+  padding: 10px;
+}

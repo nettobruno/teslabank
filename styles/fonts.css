@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Regular.ttf") format("truetype");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("../font/Sora-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("../font/Sora-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
